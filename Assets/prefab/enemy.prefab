@@ -91,6 +91,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   effect: {fileID: 1560958755616794, guid: 2f63a4742d3fe54409dc9216fdfbc7e3, type: 2}
+  health: 5
+  shake: {fileID: 0}
 --- !u!212 &212227655638149006
 SpriteRenderer:
   m_ObjectHideFlags: 1

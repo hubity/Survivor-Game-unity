@@ -21,8 +21,9 @@ GameObject:
   - component: {fileID: 224413658533119476}
   - component: {fileID: 222988361430984264}
   - component: {fileID: 114211168076802064}
-  - component: {fileID: 114410796943585892}
+  - component: {fileID: 114575490685429842}
   - component: {fileID: 114802447301683530}
+  - component: {fileID: 114383298140718268}
   m_Layer: 5
   m_Name: healf button
   m_TagString: Untagged
@@ -57,7 +58,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114410796943585892
+--- !u!114 &114383298140718268
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,9 +96,32 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114211168076802064}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114575490685429842}
+        m_MethodName: Health
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114575490685429842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287981735165708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2749fa1d975df3e409db10982ea53ccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heal: 2
 --- !u!114 &114802447301683530
 MonoBehaviour:
   m_ObjectHideFlags: 1

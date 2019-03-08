@@ -24,7 +24,7 @@ public class playerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //healthDisplay.text = "HEALTH :" + health;
+        healthDisplay.text = "HEALTH :" + health;
 
         faceMouse(); // função que faz com que o player rotacione com o mouse
 

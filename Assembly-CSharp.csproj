@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{EEEF87C7-DEDC-4A78-EC21-7CAEBAD1FBD4}</ProjectGuid>
+    <ProjectGuid>{7F3EDE77-7FFD-4DC7-B2A8-A5A823BCC11E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,9 +61,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\CameraFollow.cs" />
     <Compile Include="Assets\script\enemy.cs" />
     <Compile Include="Assets\script\enemyBlue.cs" />
+    <Compile Include="Assets\script\enemyPatrol.cs" />
     <Compile Include="Assets\script\Inventary.cs" />
+    <Compile Include="Assets\script\lotes\health_button.cs" />
     <Compile Include="Assets\script\pickup.cs" />
     <Compile Include="Assets\script\playerController.cs" />
     <Compile Include="Assets\script\projectile.cs" />
@@ -73,16 +76,16 @@
     <Compile Include="Assets\script\spawnerEnemy.cs" />
     <Compile Include="Assets\script\testes.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Projetos_Unity/plataform/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/game/unity/Survivor-Game-unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Projetos_Unity/plataform/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/game/unity/Survivor-Game-unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Projetos_Unity/plataform/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/game/unity/Survivor-Game-unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Projetos_Unity/plataform/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/game/unity/Survivor-Game-unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
