@@ -36,7 +36,8 @@ public class enemyPatrol : MonoBehaviour {
             else
             {
                 waitTime -= Time.deltaTime;
-            }
+            } 
         }
-	}
+
+    }
 }

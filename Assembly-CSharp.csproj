@@ -68,12 +68,13 @@
     <Compile Include="Assets\script\Inventary.cs" />
     <Compile Include="Assets\script\lotes\health_button.cs" />
     <Compile Include="Assets\script\pickup.cs" />
-    <Compile Include="Assets\script\playerController.cs" />
-    <Compile Include="Assets\script\projectile.cs" />
-    <Compile Include="Assets\script\shooting.cs" />
+    <Compile Include="Assets\script\player\playerController.cs" />
+    <Compile Include="Assets\script\player\projectile.cs" />
+    <Compile Include="Assets\script\player\shooting.cs" />
     <Compile Include="Assets\script\slot.cs" />
     <Compile Include="Assets\script\spawn.cs" />
     <Compile Include="Assets\script\spawnerEnemy.cs" />
+    <Compile Include="Assets\script\SpawRandonItens.cs" />
     <Compile Include="Assets\script\testes.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/game/unity/Survivor-Game-unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
