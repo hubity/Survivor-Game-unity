@@ -62,18 +62,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\script\CameraFollow.cs" />
-    <Compile Include="Assets\script\enemy.cs" />
-    <Compile Include="Assets\script\enemyBlue.cs" />
-    <Compile Include="Assets\script\enemyPatrol.cs" />
+    <Compile Include="Assets\script\enemy\enemy.cs" />
+    <Compile Include="Assets\script\enemy\enemyBlue.cs" />
+    <Compile Include="Assets\script\enemy\enemyBrave.cs" />
+    <Compile Include="Assets\script\enemy\enemyPatrol.cs" />
+    <Compile Include="Assets\script\enemy\spawnerEnemy.cs" />
     <Compile Include="Assets\script\Inventary.cs" />
     <Compile Include="Assets\script\lotes\health_button.cs" />
     <Compile Include="Assets\script\pickup.cs" />
     <Compile Include="Assets\script\player\playerController.cs" />
     <Compile Include="Assets\script\player\projectile.cs" />
     <Compile Include="Assets\script\player\shooting.cs" />
+    <Compile Include="Assets\script\portal\movePortal.cs" />
+    <Compile Include="Assets\script\portal\portal.cs" />
     <Compile Include="Assets\script\slot.cs" />
     <Compile Include="Assets\script\spawn.cs" />
-    <Compile Include="Assets\script\spawnerEnemy.cs" />
     <Compile Include="Assets\script\SpawRandonItens.cs" />
     <Compile Include="Assets\script\testes.cs" />
     <Reference Include="UnityEditor.StandardEvents">

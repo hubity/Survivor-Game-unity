@@ -17,5 +17,8 @@ public class health_button : MonoBehaviour {
     {
         player.health = player.health + 2;
         Destroy(gameObject);
+    
     }
+
+    
 }
